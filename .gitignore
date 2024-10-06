@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders (Lib, Scripts, pyvenv.cfg)
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.env
+*.DS_Store
+*.coverage
+*.migrations/
+
+# Local environment variables
+.env
+*.env.*
+
+# Static and media files (if not being tracked)
+staticfiles/
+media/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Node modules (if using frontend JavaScript frameworks)
+node_modules/
+npm-debug.log
+
+# Other logs and temporary files
+*.log
+*.pid
+*.seed
+*.lock
